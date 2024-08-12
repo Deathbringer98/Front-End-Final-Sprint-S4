@@ -1,0 +1,138 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #111; /* Dark background for a cinematic feel */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center;
+    padding: 20px 0;
+    background-color: transparent;
+}
+
+.navbar ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center;
+}
+
+.navbar li {
+    margin: 0 20px; /* Space between navbar items */
+    display: inline-block; /* Ensure buttons align horizontally */
+}
+
+.button-link {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 5px;
+    background-color: #e50914; /* Netflix Red */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px; /* Rounded button for a sleek look */
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.button-link:hover {
+    background-color: #b20710; /* Darker red on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Styling for <button> elements to match the links */
+button.button-link {
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #e50914; /* Match the link button color */
+    color: white;
+    border-radius: 50px;
+    padding: 12px 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.button-link:hover {
+    background-color: #b20710;
+    transform: translateY(-2px);
+}
+
+/* Search Bar Styling */
+.search-bar-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-bar {
+    width: 400px;
+    padding: 15px;
+    border-radius: 50px 0 0 50px;
+    border: 2px solid #e50914;
+    font-size: 16px;
+    outline: none;
+    background-color: #222;
+    color: white;
+}
+
+.search-button {
+    padding: 15px 25px;
+    background-color: #e50914;
+    color: white;
+    border: 2px solid #e50914;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.search-button:hover {
+    background-color: #b20710;
+    transform: translateY(-2px);
+}
+
+/* General Button Styling */
+.button-link, .search-button {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Uniform shadow for buttons */
+}
+
+.button-link:hover, .search-button:hover {
+    transform: translateY(-2px); /* Uniform lift on hover */
+}
+
+/* Additional Styling for a Cohesive Look */
+.movie-item {
+    background-color: rgba(34, 34, 34, 0.85); /* Dark background for movie items */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.movie-item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.movie-item h3 {
+    color: #FFD700; /* Gold color for movie titles */
+    margin-bottom: 10px;
+}
+
+.movie-item p {
+    color: white;
+    margin: 5px 0;
+}
