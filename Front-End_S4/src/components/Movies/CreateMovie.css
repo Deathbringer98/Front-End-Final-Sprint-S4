@@ -1,0 +1,73 @@
+/* CreateMovie.css */
+
+.create-movie-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.create-movie-container h2 {
+    color: #FFD700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.create-movie-container .notification {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.create-movie-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #444;
+    color: white;
+}
+
+.create-movie-container .button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-movie-container .create-button,
+.create-movie-container .back-button {
+    width: 48%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.create-movie-container .create-button {
+    background-color: #e50914;
+    color: white;
+}
+
+.create-movie-container .back-button {
+    background-color: #555;
+    color: white;
+}
+
+.create-movie-container .create-button:hover {
+    background-color: #b20710;
+    transform: translateY(-2px);
+}
+
+.create-movie-container .back-button:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+}
